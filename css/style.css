@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1320px;
+    width: 95%;
+}
+img {
+    width: 100%;
+}
+
+/* --------------- Header --------------- */
+/* --------------- Footer --------------- */
+/* --{Index}-- */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/pexels-suzy-hazelwood-1560093.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+}
