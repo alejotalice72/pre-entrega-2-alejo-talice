@@ -87,8 +87,53 @@ footer {
 .container__us h3 {
     font-family: 'Cinzel', serif;
 }
+/* --{libraries}-- */
+.library {
+    height: 80vh;
+    width: 100%;
+}
+.library__1 {
+    margin-top: 4.5rem;
+    background-color: #ccc7b1;
+}
+.library__2 {
+    background-color: #e1d9cb;
+}
+.library__3 {
+    background-color: #ccc4b1;
+}
+.library__map {
+    box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+}
+.library__schedule {
+    background-color: #e4e2d8;
+    box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -1px 81px -18px rgba(0,0,0,0.75);
+}
+.library__schedule__ul {
+    list-style-type: none;
+}
+.library__schedule__li {
+    list-style-type: none;
+}
+.library__schedule__title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 @media (min-width:768px) {
+    .navbar__img {
+        height: 3rem;
+        width: 14rem;
+    }
     .hero {
         height: 100vh;
+    }
+    .bubble__img {
+        height: 4rem;
+        width: 4rem;
     }
 }
