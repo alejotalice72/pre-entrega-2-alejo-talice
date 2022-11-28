@@ -89,8 +89,9 @@ footer {
 }
 /* --{libraries}-- */
 .library {
-    height: 60vh;
     width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .library__1 {
     margin-top: 4.5rem;
@@ -132,6 +133,22 @@ footer {
     margin-left: 2rem;
     margin-bottom: 1rem;
 }
+/* --{services}-- */
+/* --{contact}-- */
+/* --{qaf}-- */
+.qaf {
+    margin-top: 4.5rem;
+    width: 100%;
+    background-color: #E2E2D2;
+    padding: 2rem;
+}
+.qaf__btn {
+    background-color: #C5BC8E;
+}
+.qaf__text {
+    background-color: #ccc7b1;
+    border-radius: 0px 0px 10px 10px;
+}
 
 @media (min-width:768px) {
     .navbar__img {
@@ -146,7 +163,8 @@ footer {
         width: 4rem;
     }
     .library {
-        height: 80vh;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
         width: 100%;
     }
 }
